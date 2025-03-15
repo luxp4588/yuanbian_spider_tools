@@ -12,9 +12,6 @@ class YuanbianTextEdit(QTextEdit):
         super().paste()
 
     def insertFromMimeData(self, source):
-        if source.hasText():
+        if source and source.hasText():
             self.insertPlainText(source.text())
 
-
-
-        
