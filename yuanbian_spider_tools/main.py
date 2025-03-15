@@ -24,10 +24,10 @@ from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QFont, QIcon
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl
-from .BrowerDriver import BrowserAutomation
-from .SpiderConfig import SpiderConfigWindow
-from .YuanbianWidgets import YuanbianTextEdit
-from .hook_js import hook_js
+from BrowerDriver import BrowserAutomation
+from SpiderConfig import SpiderConfigWindow
+from YuanbianWidgets import YuanbianTextEdit
+from hook_js import hook_js
 
 
 class BrowserApp(QMainWindow):
